@@ -1,0 +1,27 @@
+{
+  "name": "vocapp",
+  "version": "1.0.0",
+  "description": "Vocabluary application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "vocabluary",
+    "mern",
+    "monogodb",
+    "expressjs",
+    "react",
+    "nodejs"
+  ],
+  "author": "Murat Jummyyev <muratj.tm@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
+  }
+}
