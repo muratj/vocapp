@@ -3,6 +3,10 @@ const {
 } = require('express');
 const User = require('../models/User');
 const bcrypt = require('bcrypt');
+const {
+    check,
+    validationResult
+} = require('express-validator');
 const router = Router();
 
 router.post('/signup', async (req, res) => {
